@@ -5,6 +5,8 @@ Data Packet from Device : ( Not actual packet, just a temporary structure)
 
 
 Example: {"date":"2025,00,00","time":"INVALID","uptime":123,"gps":{"lat":999.999878,"lon":999.999878},"obd":{"rpm":0,"speed":0,"coolant_temp":0,"throttle_pos":0,"mass_air_flow":0.00,"absolute_engine_load":0}}
+
+
 typedef struct
 {
     float lat;
